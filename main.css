@@ -1,0 +1,151 @@
+header {
+    margin-top: -10px;
+    margin-left: -10px;
+    margin-right: -10px;
+    height: 35px;
+    background-color: rgb(238, 236, 231);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+}
+body{
+    background-color: #9c9B9D;
+    font-family: "Montserrat", sans-serif;
+}
+header p {
+    font-size: 15px;
+    font-family: "Montserrat", sans-serif;
+}
+.logo{
+    margin-top: -40px;
+    margin-left: 320px;
+    margin-right: 319px;
+
+}
+
+
+.company__name {
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    line-height: 1;
+}
+
+.catalog{
+    font-size: 15px;
+    position: relative;
+    margin-left: 15px;
+   
+}
+
+.contact{
+    margin-right: 15px;
+    background-color: #2cb3a7;
+    font-family: "Montserrat", sans-serif;
+    border-radius: 10px;
+}
+
+.base__collection {
+    
+    height: 600px;
+    border: 1px solid #ccc; /* Добавляем границу для наглядности */
+    overflow: hidden; /* Обрезаем содержимое, которое выходит за пределы блока */
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+.photo__base {
+    width: 100%; /* Заполняем ширину блока */
+    height: auto; /* Автоматическое вычисление высоты */
+    display: block; /* Убираем лишние пробелы вокруг изображения */
+    
+}
+body h3{
+    text-align: center;
+    font-weight: 400;
+    margin-top: 30px;
+}
+
+.features__border{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 20%;
+    margin-right: 20%;
+    border: 1px solid #666972;
+    
+}
+
+.new__collection{
+    margin-left: 20%;
+    margin-right: 20%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+
+section div img{
+    width: 100%;
+}
+
+.discounts{
+    margin-left: 20%;
+    margin-right: 20%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+}
+
+.about{
+    margin-left: 20%;
+    margin-right: 20%;
+    line-height: 1.2em;
+    font-size: 11px;
+}
+
+footer{
+    margin: 20px 20px 20px 20px;
+    font-size: 10px;
+    font-weight: 600px;
+}
+
+.footer__container{
+    display: flex;
+    justify-content: center;
+}
+
+.footer__group{
+    margin-right: 80px;
+
+}
+
+footer h3 {
+    opacity: 0.7;
+    font-size: 19px;
+    margin-bottom: 15px;
+   
+ }
+
+.footer__links{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__links a {
+    margin-bottom: 15px;
+    color: black;
+ }
+
+ .cost{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    margin: 0;
+    line-height: 0;
+      
+ }
+
+ .cost p{
+    opacity: 0.7;
+ }
